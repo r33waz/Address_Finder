@@ -1,0 +1,77 @@
+#container {
+  width: 100%;
+  border: 2px solid #c3c3c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+#container h1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7MbRrwlP4MtsSXkIG-XBxvCnAQi5NuzQpqQ&usqp=CAU");
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box table{
+  width: 90%;
+  height: 90vh;
+}
+.box tr:nth-child(even) {
+  background-color: #575454;
+}
+.box td:nth-child(odd) {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.box tr:hover {
+  background-color: #583232;
+}
+
+.box {
+display: grid;
+grid-template-columns: 2fr 5fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px; 
+}
+
+.first-class{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.input {
+  width: 250px;
+  border-color: aqua;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#container table {
+  margin-top: -50px;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 2px;
+  text-align: left;
+}
+
+th {
+  color: rgb(246, 242, 242);
+}
+
+.leaflet-container {
+  height: 90vh;
+}
