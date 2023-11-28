@@ -58,9 +58,6 @@ grid-row-gap: 0px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-#container table {
-  margin-top: -50px;
-}
 
 td {
   border: 1px solid #ddd;
@@ -74,4 +71,9 @@ th {
 
 .leaflet-container {
   height: 90vh;
+}
+
+small{
+  font-size: large;
+  padding: 0px 0px 0px 27px;
 }
